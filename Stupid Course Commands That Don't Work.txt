@@ -1,0 +1,7 @@
+-> vagrant up
+-> vagrant ssh  <-- Connect to the server
+-> cd /vagrant$  <-- Change to the vagrant directory
+-> python -m venv ~/env  <-- Create a new Python environment
+-> source ~/env/bin/activate  <-- Activate the Python environment
+-> deactivate  <-- Deactivate the Python environment
+-> python manage.py runserver 0.0.0.0:8000 <- Start dev server
